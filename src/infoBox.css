@@ -1,0 +1,23 @@
+.card-container{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card-container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 1.5rem;
+    width: 300px;
+    max-width: 100%;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2), -5px -5px 15px rgba(255, 255, 255, 0.8);
+    transform: translateZ(0);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Add hover effect to enhance 3D feel */
+  .card-container:hover {
+    transform: translateZ(20px);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3), -10px -10px 20px rgba(255, 255, 255, 0.9);
+  }
+  

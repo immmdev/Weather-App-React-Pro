@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh; 
+    margin: 0;
+    background-color: #ffffff;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .input-tab {
+    display: flex;
+    gap: 5px;
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    width: 300px;
+    padding: 20px;
+    background: linear-gradient(145deg, #ffffff, #ffffff);
+    box-shadow: 6px 6px 12px #d1d1d1, -6px -6px 12px #ffffff;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .input-tab:hover {
+    transform: translateY(-5px);
+    box-shadow: 8px 8px 16px #bcb9b9, -8px -8px 16px #ffffff;
+  }
+  
+  .input-tab label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  .input-tab input {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow: inset 4px 4px 8px #f4f3f3, inset -4px -4px 8px #ffffff;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .input-tab input:focus {
+    box-shadow: inset 6px 6px 12px #ffffff, inset -6px -6px 12px #ffffff;
+  }
+  
+  .input-tab input::placeholder {
+    text-align: center;
+    color: #64748b;
+    font-weight: 500;
+  }
+  
+  .weather-title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    color: #3c7cc5;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .weather-title::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: linear-gradient(to right, #3c7cc5, #50C9C3);
+    border-radius: 50px;
+  }
+  
+  #search-button {
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  #city-name {
+    width: 1000px;
+    background-color: aliceblue;
+    border-radius: 10px;
+  }
