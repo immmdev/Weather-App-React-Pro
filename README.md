@@ -50,7 +50,7 @@ Ensure you have the following installed on your system:
 To start the development server, run:
 
 ```bash
-npm run dev
+npm start
 ```
 
 Visit `http://localhost:5173` to view the app in your browser.
