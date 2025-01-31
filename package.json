@@ -1,5 +1,5 @@
 {
-  "homepage": "https://immmdev.github.io/Weather-App-React-Pro",
+  "homepage": "https://immmdev.github.io/todotask",
   "name": "weather-app-react-delta",
   "private": true,
   "version": "0.0.0",
@@ -15,8 +15,6 @@
   },
   "dependencies": {
     "@mui/icons-material": "^6.4.2",
-    "build": "^0.1.4",
-    "gh-pages": "^6.3.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
